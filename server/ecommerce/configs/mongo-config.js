@@ -1,7 +1,9 @@
 // export mongodb url
-const MONGO_USERNAME = 'username';
-const MONGO_PASSWORD = 'your_password';
-const MONGO_HOSTNAME = '127.0.0.1';
-const MONGO_PORT = '27017';
-const MONGO_DB = 'fashion-cube';
-module.exports = "mongodb://127.0.0.1:27017/fashion-cube"
+const MONGO_USERNAME = 'wm66179';
+const MONGO_PASSWORD = 'saifmalik28';
+const MONGO_HOSTNAME = 'cluster0.ti04esi.mongodb.net';
+const MONGO_PORT = ' ';
+const MONGO_DB = 'retryWrites=true&w=majority';
+module.export = {
+    MONGO_URL: "mongodb://0.0.0.0:27017/fashion-cube" }
+

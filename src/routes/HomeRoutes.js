@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 // Layout Types
 import BaseLayout from "../layouts/BaseLayout";
@@ -26,7 +26,7 @@ var routes = [
   {
     path: "/home",
     layout: BaseLayout,
-    component: () => <Redirect to="/fashion-cube" />,
+    component: () => <Navigate to="/fashion-cube" />,
   },
   {
     path: "/fashion-cube/single-product/:id",

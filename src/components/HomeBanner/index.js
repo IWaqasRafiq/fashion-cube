@@ -28,7 +28,7 @@ function HomeBanner(props) {
                   <h6>Spring / Summer Collection 2017</h6>
                   <h1>Get up to 30% Off New Arrivals</h1>
                   <div className="red_button shop_now_button">
-                    <a href="#">shop now</a>
+                    {/* <a href="#">shop now</a> */}
                   </div>
                 </div>
               </div>
@@ -50,7 +50,7 @@ function HomeBanner(props) {
                   <h6>Spring / Summer Collection 2017</h6>
                   <h1>Get up to 30% Off New Arrivals</h1>
                   <div className="red_button shop_now_button">
-                    <a href="#">shop now</a>
+                    {/* <a href="#">shop now</a> */}
                   </div>
                 </div>
               </div>
@@ -72,7 +72,7 @@ function HomeBanner(props) {
                   <h6>Spring / Summer Collection 2017</h6>
                   <h1>Get up to 30% Off New Arrivals</h1>
                   <div className="red_button shop_now_button">
-                    <a href="#">shop now</a>
+                    {/* <a href="#">shop now</a> */}
                   </div>
                 </div>
               </div>

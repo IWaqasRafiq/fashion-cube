@@ -4,8 +4,8 @@ var Department = require('../models/Department');
 var Product = require('../models/Product');
 var Variant = require('../models/Variant');
 var mongoose = require('mongoose');
-const mongoConfig = require('../configs/mongo-config')
-mongoose.connect(mongoConfig, { useNewUrlParser: true, useCreateIndex: true, });
+// const mongoConfig = require('../configs/mongo-config')
+mongoose.connect('mongodb+srv://wm66179:saifmalik28@cluster0.ti04esi.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, });
 
 
 var categories =
